@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monometric"
+version = "0.1.0b1"
+description = "Nuvola di punti metrica da singola foto con target ChArUco (MoGe/UniDepth/DepthPro/DA3 + ancoraggio e validazione LOBO)"
+requires-python = ">=3.10"
+authors = [{name = "Riccardo Tavolare"}, {name = "Valeria Cera"}, {name = "Giuseppe Antuono"}]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "opencv-python-headless>=4.8",   # cv2.aruco è nel modulo principale da OpenCV 4.7
+  "pillow>=10",
+  "pillow-heif>=0.16",
+  "trimesh>=4",
+  "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+gui = ["gradio>=5"]
+export = ["laspy>=2.5", "pye57>=0.4"]
+paper = ["matplotlib>=3.7", "python-docx>=1.1"]
+all = ["gradio>=5", "laspy>=2.5", "pye57>=0.4", "matplotlib>=3.7", "python-docx>=1.1"]
+
+[project.scripts]
+monometric = "monometric.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["monometric*"]

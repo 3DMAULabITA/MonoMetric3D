@@ -1,0 +1,5 @@
+"""MonoMetric 3D — metric point clouds from a single photo with ChArUco targets."""
+__version__ = "0.1.0b1"
+PROJECT = "Monocular Depth Estimation for Low-Cost 3D Reconstruction"
+AUTHORS = "Riccardo Tavolare, Valeria Cera, Giuseppe Antuono"
+CREDITS = f"{PROJECT} - Authors: {AUTHORS} (2026 - Beta Version)"
