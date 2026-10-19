@@ -40,13 +40,16 @@ monometric run photo.jpg --board board.json --models moge2-vitl -o results/
 
 ## Scientific context
 
-Developed alongside *Monocular Depth Estimation for Low-Cost 3D Reconstruction* (Tavolare, Cera and Antuono, 2026). The case study compares zero-shot and anchored reconstructions with an independently scaled photogrammetric reference. **Improved global scale consistency does not guarantee local geometric accuracy**; LOBO is an internal check, not a substitute for independent validation.
+Developed alongside *Monocular Depth Estimation for Low-Cost 3D Reconstruction* (Tavolare, Cera and Antuono, 2026). The case study compares zero-shot and anchored reconstructions with an independently scaled photogrammetric reference.
 
 **Authors:** Riccardo Tavolare (1), Valeria Cera (2), Giuseppe Antuono (3)
 
-1 Dept. DICATECh, Polytechnic University of Bari, Bari, Italy - riccardo.tavolare@poliba.it
-2 Dept. of Architecture, University of Naples Federico II, Naples, Italy - valeria.cera@unina.it 
-3 Dept. of Civil, Building and Environmental Engineering, University of Naples Federico II, Naples, Italy - giuseppe.antuono@unina.it
+(1) Dept. DICATECh, Polytechnic University of Bari, Bari, Italy - riccardo.tavolare@poliba.it
+
+(2) Dept. of Architecture, University of Naples Federico II, Naples, Italy - valeria.cera@unina.it 
+
+(3) Dept. of Civil, Building and Environmental Engineering, University of Naples Federico II, Naples, Italy - giuseppe.antuono@unina.it
+
   
 **Citation / DOI:** to be added after publication or release archiving.  
 **License:** see the repository's license file, if provided; no reuse license is implied by this README.
